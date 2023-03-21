@@ -1,0 +1,43 @@
+\documentclass{beamer}
+\usetheme{Berkeley}
+\author{Amar Tabakovic}
+\title{A Topic}
+\subtitle{A subtitle.}
+\institute{Institution XYZ}
+\date{2023}
+
+%\renewcommand{\footnotesize}{\fontsize{5pt}{7pt}\selectfont}
+\graphicspath{{./images/}}
+
+\AtBeginSection[]
+{
+  \begin{frame}
+  \frametitle{Table of Contents}
+  \tableofcontents[currentsection]
+  \end{frame}
+}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}
+\frametitle{Table of Contents}
+\tableofcontents
+\end{frame}
+
+\section{Introduction}
+
+\begin{frame}
+\frametitle{Introduction}
+\framesubtitle{Slide 1}
+Some text.
+\end{frame}
+
+\begin{frame}
+\frametitle{Introduction}
+\framesubtitle{Slide 2}
+Some text.
+\end{frame}
+
+\end{document}
