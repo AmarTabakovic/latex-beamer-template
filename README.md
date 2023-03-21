@@ -1,5 +1,5 @@
 # latex-beamer-template
-My personal template to beamer presentations.
+My personal template for creating beamer presentations.
 
 ## Required Software
 - pdflatex
